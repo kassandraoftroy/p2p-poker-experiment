@@ -49,4 +49,4 @@ How can a public blockchain (where all state is public knowledge) and a decentra
 
 ### Contact
 
-contact cypherpleb@protonmail.com for questions, comments, etc, or if you are simply interested in the project and want to be a part of the development.
+contact actiontoken@protonmail.com for questions, comments, etc, or if you are simply interested in the project and want to be a part of the development.
