@@ -1,0 +1,256 @@
+[
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "encodedState",
+				"type": "bytes"
+			}
+		],
+		"name": "getPot",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "pure",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "commitAction",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "encodedPreviousState",
+				"type": "bytes"
+			},
+			{
+				"name": "encodedNewState",
+				"type": "bytes"
+			},
+			{
+				"name": "participants",
+				"type": "address[2]"
+			},
+			{
+				"name": "smallBlind",
+				"type": "uint256"
+			}
+		],
+		"name": "isValidStateTransition",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "encodedState",
+				"type": "bytes"
+			}
+		],
+		"name": "getActionType",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"payable": false,
+		"stateMutability": "pure",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "raiseAction",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "encodedState",
+				"type": "bytes"
+			}
+		],
+		"name": "getBalances",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256[2]"
+			}
+		],
+		"payable": false,
+		"stateMutability": "pure",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "callAction",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "cardX",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "cardY",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "keysP1",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "keysP2",
+				"type": "uint256[2]"
+			},
+			{
+				"name": "winnerIndex",
+				"type": "uint8"
+			}
+		],
+		"name": "isValidHandResult",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "smallBlind",
+				"type": "uint256"
+			}
+		],
+		"name": "initialEncodedState",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bytes"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "revealAction",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "foldAction",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint8"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "encodedPreviousState",
+				"type": "bytes"
+			},
+			{
+				"name": "encodedNewState",
+				"type": "bytes"
+			},
+			{
+				"name": "participants",
+				"type": "address[2]"
+			},
+			{
+				"name": "smallBlind",
+				"type": "uint256"
+			}
+		],
+		"name": "isValidStateFastForward",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"name": "mentalPokerAddress",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	}
+]
